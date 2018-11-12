@@ -13,3 +13,5 @@ Operation
   ExsitElem(L,e);         //在线性表L中查找是否存在数据e，存在则返回该元素在表中的
                           //下标，不存在返回-1
   InsertElem(*L,i,e);     //在线性表L中第i个位置插入新元素e
+  DeleteElem(*L,i,*e);    //删除线性表L中第i个位置的元素，并用e返回其值
+  GetLength(L);           //返回线性表L中元素个数
