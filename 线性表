@@ -9,3 +9,7 @@ Operation
   InitList(*L);           //初始化线性表，建立一个空的线性表L
   IsEmpty(L);             //若线性表为空，返回TRUE，否则返回FALSE
   ClearList(*L);          //将线性表清空
+  GetElem(L,i,*e);        //将线性表L中第i个位置的数据元素返回给e
+  ExsitElem(L,e);         //在线性表L中查找是否存在数据e，存在则返回该元素在表中的
+                          //下标，不存在返回-1
+  InsertElem(*L,i,e);     //在线性表L中第i个位置插入新元素e
